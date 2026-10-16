@@ -1,0 +1,14 @@
+## Interface: 16001
+## Title: Inventory Archivist - Forever
+## Notes: Alpha inventory tracking, realm-isolated Vault, bag markers, and custom bag positioning.
+## Version: 0.1.2j-alpha
+## SavedVariables: InventoryArchivistForeverDB
+
+Core.lua
+ClientAPI.lua
+NativeInventory.lua
+AccountVault.lua
+Shortcuts.lua
+Markers.lua
+BagPositioning.lua
+Settings.lua

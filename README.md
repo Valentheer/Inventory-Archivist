@@ -14,22 +14,9 @@ Browse categorized inventory across multiple characters, including saved gold an
 ### Cross-Character Item Tracking
 See how many of an item you own and which characters are holding it.
 
-![Cross-Character Tracking](screenshots/IASS2.png)
+![Cross-Character Tracking](Screenshots/IASS2.png)
 
-### Individual Character Inventory
-Select a character to view their inventory and see where items are stored.
 
-![Character Inventory](screenshots/IASS3.png)
-
-### Custom Bag Positioning — Combined Bags
-Move and save your combined backpack, keyring, and reagent bag positions.
-
-![Combined Bag Positioning](screenshots/IASS4.png)
-
-### Custom Bag Positioning — Separate Bags
-Arrange individual bags independently and save their positions.
-
-![Separate Bag Positioning](screenshots/IASS5.png)
 Installation
 Download the ZIP attached to the latest GitHub Release (rather than GitHub's automatically generated source-code ZIP).
 Exit World of Warcraft.
@@ -51,6 +38,12 @@ Log into a character and open your bags. Inventory Archivist records the items i
 Visit your bank and open it to let the addon record bank contents.
 Type `/ia` to browse your recorded items. Use the Inventory dropdown to view all recorded inventories or a particular character/location.
 Search for an item by name or item ID, use Filters to show or hide categories, or sort by Name or Quantity.
+
+### Individual Character Inventory
+Select a character to view their inventory and see where items are stored.
+
+![Character Inventory](Screenshots/IASS3.png)
+
 Click Settings in the Vault (or type `/ia settings`) to configure markers, Vault shortcuts, and bag positioning.
 Important: The Vault shows saved snapshots, not live access to every character's inventory. To refresh another character's data, log into that character. Bank contents require opening the bank to refresh them.
 Features and how to use them
@@ -76,6 +69,17 @@ To move bags:
 Open your bags and click the padlock on the bag title bar to unlock positioning.
 Drag a bag using its small `::` grip to the location you prefer.
 Click the padlock again to lock the layout.
+
+### Custom Bag Positioning — Combined Bags
+Move and save your combined backpack, keyring, and reagent bag positions.
+
+![Combined Bag Positioning](Screenshots/IASS4.png)
+
+### Custom Bag Positioning — Separate Bags
+Arrange individual bags independently and save their positions.
+
+![Separate Bag Positioning](Screenshots/IASS5.png)
+
 Your customized positions are saved and should persist across `/reload` and subsequent logins.
 Combined bags and separate bags have independent saved layouts. Settings also offers Reset Combined Position and Reset Separate Positions, so you can return either layout to native positioning without resetting the other.
 If you prefer fewer controls, enable Show lock only on title-bar hover in Settings. You can also disable custom positioning entirely.

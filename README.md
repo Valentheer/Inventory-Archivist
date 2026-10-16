@@ -4,7 +4,6 @@ Game client: WoW Forever 1.60.1 (Interface 16001)
 Status: Community alpha — feedback welcome
 Inventory Archivist is a community-made addon for WoW Forever that remembers inventory snapshots across your characters, lets you browse them in a searchable Account Vault, adds optional item markers, and allows you to customize where your bags appear on screen.
 The addon is read-only with respect to your items: it does not move, sell, delete, or otherwise modify inventory items. Inventory records and preferences are saved locally on your computer.
-## Screenshots
 
 ### Account Vault Overview
 Browse categorized inventory across multiple characters, including saved gold and bank information.
@@ -17,7 +16,7 @@ See how many of an item you own and which characters are holding it.
 ![Cross-Character Tracking](Screenshots/IASS2.png)
 
 
-Installation
+## Installation
 Download the ZIP attached to the latest GitHub Release (rather than GitHub's automatically generated source-code ZIP).
 Exit World of Warcraft.
 Extract the ZIP into your WoW Forever `Interface/AddOns/` directory.
@@ -33,7 +32,7 @@ Check that the folder structure looks like this:
 Launch WoW Forever and make sure Inventory Archivist - Forever is enabled on the addon list.
 Enter `/ia` in chat to open the Account Vault.
 Updating: Replace the addon folder with the newer release. Your saved settings and inventory records normally remain intact because WoW stores them separately in `WTF/SavedVariables`. Back up that data before major alpha updates.
-Quick start
+## Quick start
 Log into a character and open your bags. Inventory Archivist records the items it can access.
 Visit your bank and open it to let the addon record bank contents.
 Type `/ia` to browse your recorded items. Use the Inventory dropdown to view all recorded inventories or a particular character/location.

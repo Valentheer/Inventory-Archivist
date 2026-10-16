@@ -9,7 +9,7 @@ The addon is read-only with respect to your items: it does not move, sell, delet
 ### Account Vault Overview
 Browse categorized inventory across multiple characters, including saved gold and bank information.
 
-![Account Vault Overview](screenshots/IASS1.png)
+![Account Vault Overview](Screenshots/IASS1.png)
 
 ### Cross-Character Item Tracking
 See how many of an item you own and which characters are holding it.

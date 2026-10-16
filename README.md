@@ -1,4 +1,4 @@
-Inventory Archivist — Forever
+# Inventory Archivist — Forever
 Version: 0.1.2j Alpha  
 Game client: WoW Forever 1.60.1 (Interface 16001)  
 Status: Community alpha — feedback welcome
@@ -45,7 +45,7 @@ Select a character to view their inventory and see where items are stored.
 
 Click Settings in the Vault (or type `/ia settings`) to configure markers, Vault shortcuts, and bag positioning.
 Important: The Vault shows saved snapshots, not live access to every character's inventory. To refresh another character's data, log into that character. Bank contents require opening the bank to refresh them.
-Features and how to use them
+## Features and how to use them
 Account Vault
 The Vault brings recorded inventories together in a single window. It includes:
 Inventory dropdown: Choose All Inventories or narrow the view to an available inventory/character scope.
@@ -82,7 +82,7 @@ Arrange individual bags independently and save their positions.
 Your customized positions are saved and should persist across `/reload` and subsequent logins.
 Combined bags and separate bags have independent saved layouts. Settings also offers Reset Combined Position and Reset Separate Positions, so you can return either layout to native positioning without resetting the other.
 If you prefer fewer controls, enable Show lock only on title-bar hover in Settings. You can also disable custom positioning entirely.
-Chat commands
+## Chat commands
 Command	Action
 `/ia`	Open or close the Account Vault
 `/iaforever`	Alternate command for the Vault
